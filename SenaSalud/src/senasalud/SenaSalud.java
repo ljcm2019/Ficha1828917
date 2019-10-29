@@ -17,7 +17,7 @@ public class SenaSalud {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String nom,apellido;
+        String nom,apellido,ape2;
       Scanner nombre = new Scanner(System.in);
       System.out.println("Digite su nombre");
       nom=nombre.next();
@@ -25,6 +25,9 @@ public class SenaSalud {
       System.out.println("Digite su apellido");
       apellido=nombre.next();
       System.out.println("su apellido es:"+apellido);
+      System.out.println("Digite su 2  apellido");
+      ape2=nombre.next();
+      System.out.println("su apellido  2 es:"+apellido);
       
     }
     
