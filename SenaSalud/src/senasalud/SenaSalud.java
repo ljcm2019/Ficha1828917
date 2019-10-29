@@ -17,11 +17,14 @@ public class SenaSalud {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String nom;
+        String nom,apellido;
       Scanner nombre = new Scanner(System.in);
       System.out.println("Digite su nombre");
       nom=nombre.next();
       System.out.println("su nombres es:"+nom);
+      System.out.println("Digite su apellido");
+      apellido=nombre.next();
+      System.out.println("su apellido es:"+apellido);
       
     }
     
